@@ -1,4 +1,7 @@
 .terraform*
+<<<<<<< HEAD
 *.swp
 *.swo
+=======
+>>>>>>> fixed
 
