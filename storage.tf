@@ -1,4 +1,4 @@
-#tfsec:ignore:aws-s3-enable-bucket-logging tfsec:ignore:aws-s3-enable-versioning tfsec:ignore:aws-s3-encryption-customer-key
+#tfsec:ignore:aws-s3-enable-versioning tfsec:ignore:aws-s3-encryption-customer-key
 resource "aws_s3_bucket" "demo_bucket" {
   bucket = "tfsecdemo-test-bucket"
     server_side_encryption_configuration {
